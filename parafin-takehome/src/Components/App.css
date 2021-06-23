@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 18em;
+}
+
+.inputSymbol {
+  position: relative;
+  font-family: "SF Pro Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: #0258FF;
+}
+
+.inputSymbol input {
+  padding-left: 18px;
+}
+
+.inputSymbol:before {
+  position: absolute;
+  top: 0;
+  content:"$";
+  left: 5px;
+}
+
+.amountInput {
+  height: 80px;
+width: 480px;
+left: 400px;
+top: 63px;
+border-style: none;
+border-radius: 8px;
+font-family: "SF Pro Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: #0258FF;
+}
+
+.amountInput:hover {
+  border-style: solid;
+}
+
+.errorMessageContainer {
+  height: 24px;
+  width: 480px;
+  left: 400px;
+  top: 138px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+  /* margin-top: 24px;
+  margin-bottom: 24px; */
+  background-color: red;
+}
+
+.errorMessage {
+  height: 24px;
+  width: 480px;
+  left: 400px;
+  top: 138px;
+  border-radius: 20px;
+  color: white;
+}
+
+.rangeSlider {
+height: 16px;
+width: 480px;
+left: 400px;
+top: 175px;
+border-radius: 8px;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
