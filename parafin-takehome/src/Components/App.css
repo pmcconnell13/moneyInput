@@ -11,17 +11,18 @@
 .inputSymbol {
   position: relative;
   font-family: "SF Pro Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: center;
-color: #0258FF;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0258FF;
 }
 
 .inputSymbol input {
   padding-left: 18px;
+  margin-bottom: .2em;
 }
 
 .inputSymbol:before {
@@ -33,19 +34,19 @@ color: #0258FF;
 
 .amountInput {
   height: 80px;
-width: 480px;
-left: 400px;
-top: 63px;
-border-style: none;
-border-radius: 8px;
-font-family: "SF Pro Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: center;
-color: #0258FF;
+  width: 480px;
+  left: 400px;
+  top: 63px;
+  border-style: none;
+  border-radius: 8px;
+  font-family: "SF Pro Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0258FF;
 }
 
 .amountInput:hover {
@@ -75,44 +76,12 @@ color: #0258FF;
 }
 
 .rangeSlider {
-height: 16px;
-width: 480px;
-left: 400px;
-top: 175px;
-border-radius: 8px;
+  margin-top: 1em;
+  height: 16px;
+  width: 480px;
+  left: 400px;
+  top: 175px;
+  border-radius: 8px;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
