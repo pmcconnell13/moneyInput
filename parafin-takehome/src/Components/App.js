@@ -6,10 +6,10 @@ function App() {
   const [check, updateCheck] = useState('');
 
   const textFieldChange = (e) => {
-    var character = e.target.value;
+    var character = parseInt(e.target.value);
 
     console.log('parsed', character)
-    updateAmount(Math.round((parseInt(character) * 100) / 100).toLocaleString())
+    updateAmount(Math.round(character * 100 / 100).toLocaleString());
     console.log('amount', amount)
   }
 
@@ -25,7 +25,7 @@ function App() {
         </div>
       }
       <div style={{"display": "flex", "flex-wrap": "wrap", "flex-direction": "column"}}>
-        <input className="rangeSlider" type="range" min="10000" max="30000" value={amount} onChange={textFieldChange} step="2000" ></input>
+        <input className="rangeSlider" type="range" min="10000" max="30000" value={amount} onChange={e => updateAmount(e.target.value)} step="2000" ></input>
         <div style={{"display": "flex", "color": "gray", "font-size": "12px"}}>
           <span> $10,000</span>
           <span style={{"display": "flex", "margin-left": "auto"}}>$30,000</span>
